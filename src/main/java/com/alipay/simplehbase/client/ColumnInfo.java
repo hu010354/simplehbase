@@ -170,4 +170,36 @@ public class ColumnInfo {
         return "type=" + type + " field=" + field + " family=" + family
                 + " qualifier=" + qualifier + " isVersioned=" + isVersioned;
     }
+
+	public String getFamily() {
+		return family;
+	}
+
+	public void setFamily(String family) {
+		this.family = family;
+	}
+
+	public byte[] getFamilyBytes() {
+		return familyBytes;
+	}
+
+	public void setFamilyBytes(byte[] familyBytes) {
+		this.familyBytes = familyBytes;
+	}
+
+	public String getQualifier() {
+		return qualifier;
+	}
+
+	public void setQualifier(String qualifier) {
+		this.qualifier = qualifier;
+	}
+
+	public byte[] getQualifierBytes() {
+		return qualifierBytes;
+	}
+
+	public void setQualifierBytes(byte[] qualifierBytes) {
+		this.qualifierBytes = qualifierBytes;
+	}
 }
