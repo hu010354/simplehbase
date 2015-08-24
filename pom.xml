@@ -6,7 +6,7 @@
 	<groupId>com.qunar.3dparty</groupId>
 	<artifactId>simplehbase</artifactId>
 	<packaging>jar</packaging>
-	<version>0.98.1</version>
+	<version>1.1</version>
 	<name>simplehbase</name>
 
 
